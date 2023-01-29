@@ -1,8 +1,33 @@
-# typescript-starter
+# MBTI Survey API
 
-This is a repository to start new TS projects quickly using Nest and following SOLID principles (Clean Architecture).
+This project has a simple MBTI survey in an API created in Typescript, Clean Architecture, and Nest. The repository was created from a template created by @avilabiel (https://github.com/avilabiel/nest-typescript-solid-starter).
 
-## Layers
+## How to run it?
+
+You must have Docker installed and then run:
+
+```
+docker-compose up
+```
+
+## How to test it?
+
+You must have Docker installed and then run:
+
+```
+docker-compose run web mocha
+```
+
+## Endpoints
+
+The main endpoints to test are:
+
+- `GET /mbti/questions`
+- `POST /mbti/surveys`
+
+## Architecture
+
+### Layers
 
 This project has only 3 layers:
 
@@ -10,13 +35,13 @@ This project has only 3 layers:
 - Use Cases: to define the actions of the system
 - Externals: everything else that is not related to business rules like storage, frameworks, etc.
 
-## Run everything in JS
+### Run everything in JS
 
 We compile every TS to JS and then we run JS. This is better because sometimes the app runs in TS, but there are a lot of errors when we compile to JS.
 
 Running everything into JS already saves a lot of time.
 
-## Scripts
+### Scripts
 
 ```
 # Build
@@ -32,13 +57,13 @@ yarn start-dev
 yarn test
 ```
 
-## Features
+### Features
 
 This repository supports the following features:
 
 - Absolute paths by `@/`
 
-## Organization
+### Organization
 
 This codebase has 3 main folders:
 
@@ -68,8 +93,7 @@ Each use case should have its automated tests.
 
 - `src/externals`: To define the rest, things that are not important for the business rules like Database, Frameworks (Express, Nest, Stocket), Libraries, etc.
 
-
-## Libraries
+### Libraries
 
 - `Nodemon` for starting services in development mode
 - `Jest` for tests
@@ -77,8 +101,8 @@ Each use case should have its automated tests.
 - `Cpy cli` for copying the `.env` to the `dist` folder on `yarn start-dev`
 - `Nest Core` for the HTTP server
 
-## Conclusion
+### Conclusion
 
 This is just a template following SOLID + Nest + Typescript. The goal here is to use Nest only as a HTTP server provider, in order to decouple the business rules from Nest.
 
-Feel free to use the best practices for Nest in terms of ** routing and HTTP server **. Business rules should be reserverd to `use cases` and `entities`.
+Feel free to use the best practices for Nest in terms of **routing and HTTP server**. Business rules should be reserverd to `use cases` and `entities`.
