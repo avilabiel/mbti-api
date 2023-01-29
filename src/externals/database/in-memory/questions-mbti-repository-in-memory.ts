@@ -6,8 +6,11 @@ import MbtiQuestion from "@/entities/mbti-question";
 export default class QuestionsMbtiRepositoryInMemory implements IQuestionsMbti {
   private questions: MbtiQuestion[] = [];
 
-  async list(): Promise<MbtiQuestion[]> {
+  constructor() {
     this.questions = QUESTIONS.map(this.build);
+  }
+
+  async list(): Promise<MbtiQuestion[]> {
     return Promise.resolve(this.questions);
   }
 
