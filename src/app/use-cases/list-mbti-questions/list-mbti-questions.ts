@@ -2,7 +2,7 @@ import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
 import IUseCase from "@/app/contracts/i-use-case";
 import Question from "@/entities/question";
 
-class ListQuestions implements IUseCase {
+class ListMbtiQuestions implements IUseCase {
   async execute({
     questionsRepository,
   }: {
@@ -12,4 +12,4 @@ class ListQuestions implements IUseCase {
   }
 }
 
-export default new ListQuestions();
+export default new ListMbtiQuestions();

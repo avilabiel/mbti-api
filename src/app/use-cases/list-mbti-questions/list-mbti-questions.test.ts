@@ -1,9 +1,9 @@
 import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
 import Question from "@/entities/question";
 import QuestionsMbtiRepositoryInMemory from "@/externals/database/in-memory/questions-mbti-repository-in-memory";
-import listQuestions from "./list-questions";
+import ListMbtiQuestions from "./list-mbti-questions";
 
-describe("ListQuestions", () => {
+describe("ListMbtiQuestions", () => {
   let questionsRepository: IQuestionsMbti;
 
   beforeEach(() => {
@@ -11,7 +11,7 @@ describe("ListQuestions", () => {
   });
 
   it("lists all questions for MBTI survey", async () => {
-    const questions = await listQuestions.execute({ questionsRepository });
+    const questions = await ListMbtiQuestions.execute({ questionsRepository });
 
     expect(questions).toHaveLength(10);
     expect(questions[0]).toBeInstanceOf(Question);
