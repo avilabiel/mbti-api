@@ -7,16 +7,22 @@ This project has a simple MBTI survey in an API created in Typescript, Clean Arc
 You must have Docker installed and then run:
 
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 ## How to test it?
 
-You must have Docker installed and then run:
+You must have Docker installed and then run, inside the container:
 
 ```
-docker-compose run web mocha
+yarn test
 ```
+
+### Report
+
+See the report
+
+![img](https://i.imgur.com/Lt1yNOs.png)
 
 ## Endpoints
 
