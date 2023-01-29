@@ -1,16 +1,16 @@
 import { v4 } from "uuid";
 
 import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
-import Question from "@/entities/question";
+import MbtiQuestion from "@/entities/mbti-question";
 
 export default class QuestionsMbtiRepositoryInMemory implements IQuestionsMbti {
-  async list(): Promise<Question[]> {
+  async list(): Promise<MbtiQuestion[]> {
     return Promise.resolve(QUESTIONS.map(this.build));
   }
 
-  private build(rawQuestion: any): Question {
+  private build(rawQuestion: any): MbtiQuestion {
     const id = v4();
-    return new Question({
+    return new MbtiQuestion({
       ...rawQuestion,
       id,
       createdAt: new Date().toLocaleString("en-US"),

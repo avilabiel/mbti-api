@@ -1,5 +1,5 @@
 import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
-import Question from "@/entities/question";
+import Question from "@/entities/mbti-question";
 import QuestionsMbtiRepositoryInMemory from "@/externals/database/in-memory/questions-mbti-repository-in-memory";
 import ListMbtiQuestions from "./list-mbti-questions";
 

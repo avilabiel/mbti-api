@@ -1,13 +1,13 @@
 import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
 import IUseCase from "@/app/contracts/i-use-case";
-import Question from "@/entities/question";
+import MbtiQuestion from "@/entities/mbti-question";
 
 class ListMbtiQuestions implements IUseCase {
   async execute({
     questionsRepository,
   }: {
     questionsRepository: IQuestionsMbti;
-  }): Promise<Question[]> {
+  }): Promise<MbtiQuestion[]> {
     return await questionsRepository.list();
   }
 }

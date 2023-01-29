@@ -1,11 +1,11 @@
-export default class Question {
+export default class MbtiQuestion {
   id?: number;
   question: string;
   dimension: string;
   meaning: string;
   createdAt?: Date;
 
-  constructor(props: Question) {
+  constructor(props: MbtiQuestion) {
     this.id = props.id;
     this.question = props.question;
     this.dimension = props.dimension;
