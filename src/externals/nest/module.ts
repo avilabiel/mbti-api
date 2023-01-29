@@ -1,9 +1,9 @@
 import { Module } from "@nestjs/common";
-import { UserController } from "./controllers/users";
-
+import { MbtiQuestionsController } from "./controllers/mbti-questions";
+import { MbtiSurveysController } from "./controllers/mbti-surveys";
 @Module({
   imports: [],
-  controllers: [UserController],
+  controllers: [MbtiQuestionsController, MbtiSurveysController],
   providers: [],
 })
 export default class AppModule {}

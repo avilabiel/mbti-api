@@ -1,7 +1,7 @@
-import UserRepositoryInMemory from "@/externals/database/in-memory/user-repository-in-memory";
+import QuestionsMbtiRepositoryInMemory from "./externals/database/in-memory/questions-mbti-repository-in-memory";
 
 export default {
   repositories: {
-    userRepository: new UserRepositoryInMemory(),
+    questionsRepository: new QuestionsMbtiRepositoryInMemory(),
   },
 };

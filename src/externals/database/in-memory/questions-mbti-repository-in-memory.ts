@@ -4,8 +4,17 @@ import IQuestionsMbti from "@/app/contracts/i-questions-mbti";
 import MbtiQuestion from "@/entities/mbti-question";
 
 export default class QuestionsMbtiRepositoryInMemory implements IQuestionsMbti {
+  private questions: MbtiQuestion[] = [];
+
   async list(): Promise<MbtiQuestion[]> {
-    return Promise.resolve(QUESTIONS.map(this.build));
+    this.questions = QUESTIONS.map(this.build);
+    return Promise.resolve(this.questions);
+  }
+
+  async getById(questionId: string): Promise<MbtiQuestion | null> {
+    return this.build(
+      this.questions.find((question) => question.id === questionId)
+    );
   }
 
   private build(rawQuestion: any): MbtiQuestion {

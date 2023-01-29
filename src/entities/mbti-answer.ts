@@ -1,7 +1,7 @@
 import MbtiQuestion from "./mbti-question";
 
 export default class MbtiAnswer {
-  id?: number;
+  id?: string;
   question: MbtiQuestion;
   response: number;
   createdAt?: Date;

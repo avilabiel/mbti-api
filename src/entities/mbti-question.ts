@@ -1,5 +1,5 @@
 export default class MbtiQuestion {
-  id?: number;
+  id?: string;
   question: string;
   dimension: string;
   meaning: string;
