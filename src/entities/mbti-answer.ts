@@ -3,13 +3,13 @@ import MbtiQuestion from "./mbti-question";
 export default class MbtiAnswer {
   id?: number;
   question: MbtiQuestion;
-  answer: number;
+  response: number;
   createdAt?: Date;
 
   constructor(props: MbtiAnswer) {
     this.id = props.id;
     this.question = props.question;
-    this.answer = props.answer;
+    this.response = props.response;
     this.createdAt = props.createdAt;
   }
 }

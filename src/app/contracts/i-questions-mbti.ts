@@ -1,5 +1,5 @@
-import Question from "@/entities/mbti-question";
+import MbtiQuestion from "@/entities/mbti-question";
 
 export default interface IQuestionsMbti {
-  list(): Promise<Question[]>;
+  list(): Promise<MbtiQuestion[]>;
 }

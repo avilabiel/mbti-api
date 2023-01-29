@@ -3,6 +3,7 @@ export default class MbtiQuestion {
   question: string;
   dimension: string;
   meaning: string;
+  direction: number;
   createdAt?: Date;
 
   constructor(props: MbtiQuestion) {
@@ -10,6 +11,7 @@ export default class MbtiQuestion {
     this.question = props.question;
     this.dimension = props.dimension;
     this.meaning = props.meaning;
+    this.direction = props.direction;
     this.createdAt = props.createdAt;
   }
 }

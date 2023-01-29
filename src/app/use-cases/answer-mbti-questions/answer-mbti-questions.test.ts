@@ -18,43 +18,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[1],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[2],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[3],
-        answer: 6,
+        response: 6,
       },
       {
         question: questions[4],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[5],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[6],
-        answer: 5,
+        response: 5,
       },
       {
         question: questions[7],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[8],
-        answer: 6,
+        response: 6,
       },
       {
         question: questions[9],
-        answer: 6,
+        response: 6,
       },
     ];
 
@@ -70,43 +70,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[1],
-        answer: 5,
+        response: 5,
       },
       {
         question: questions[2],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[3],
-        answer: 6,
+        response: 6,
       },
       {
         question: questions[4],
-        answer: 5,
+        response: 5,
       },
       {
         question: questions[5],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[6],
-        answer: 6,
+        response: 6,
       },
       {
         question: questions[7],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[8],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[9],
-        answer: 2,
+        response: 2,
       },
     ];
 
@@ -122,43 +122,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[1],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[2],
-        answer: 6,
+        response: 6,
       },
       {
         question: questions[3],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[4],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[5],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[6],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[7],
-        answer: 5,
+        response: 5,
       },
       {
         question: questions[8],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[9],
-        answer: 7,
+        response: 7,
       },
     ];
 
@@ -174,43 +174,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[1],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[2],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[3],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[4],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[5],
-        answer: 5,
+        response: 5,
       },
       {
         question: questions[6],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[7],
-        answer: 3,
+        response: 3,
       },
       {
         question: questions[8],
-        answer: 2,
+        response: 2,
       },
       {
         question: questions[9],
-        answer: 6,
+        response: 6,
       },
     ];
 
@@ -226,43 +226,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[1],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[2],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[3],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[4],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[5],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[6],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[7],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[8],
-        answer: 4,
+        response: 4,
       },
       {
         question: questions[9],
-        answer: 4,
+        response: 4,
       },
     ];
 
@@ -278,43 +278,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[1],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[2],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[3],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[4],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[5],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[6],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[7],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[8],
-        answer: 1,
+        response: 1,
       },
       {
         question: questions[9],
-        answer: 1,
+        response: 1,
       },
     ];
 
@@ -330,43 +330,43 @@ describe("AnswerMbtiQuestions", () => {
     const answers: MbtiAnswer[] = [
       {
         question: questions[0],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[1],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[2],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[3],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[4],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[5],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[6],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[7],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[8],
-        answer: 7,
+        response: 7,
       },
       {
         question: questions[9],
-        answer: 7,
+        response: 7,
       },
     ];
 
@@ -376,108 +376,3 @@ describe("AnswerMbtiQuestions", () => {
     expect(report).toBeInstanceOf(MbtiReport);
   });
 });
-
-/*
-
-{
-  "Question 1": {
-    "Test Case A": 4,
-    "Test Case B": 1,
-    "Test Case D": 3,
-    "Test Case E": 3,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 2": {
-    "Test Case A": 3,
-    "Test Case B": 5,
-    "Test Case D": 2,
-    "Test Case E": 4,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 3": {
-    "Test Case A": 1,
-    "Test Case B": 4,
-    "Test Case D": 6,
-    "Test Case E": 7,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 4": {
-    "Test Case A": 6,
-    "Test Case B": 6,
-    "Test Case D": 1,
-    "Test Case E": 1,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 5": {
-    "Test Case A": 7,
-    "Test Case B": 5,
-    "Test Case D": 7,
-    "Test Case E": 2,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 6": {
-    "Test Case A": 3,
-    "Test Case B": 2,
-    "Test Case D": 3,
-    "Test Case E": 5,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 7": {
-    "Test Case A": 5,
-    "Test Case B": 6,
-    "Test Case D": 2,
-    "Test Case E": 4,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 8": {
-    "Test Case A": 3,
-    "Test Case B": 3,
-    "Test Case D": 5,
-    "Test Case E": 3,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 9": {
-    "Test Case A": 6,
-    "Test Case B": 3,
-    "Test Case D": 2,
-    "Test Case E": 2,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Question 10": {
-    "Test Case A": 6,
-    "Test Case B": 2,
-    "Test Case D": 7,
-    "Test Case E": 6,
-    "Test Case F": 4,
-    "Test Case G": 1,
-    "Test Case H": 7
-  },
-  "Result:": {
-    "Test Case A": "ENTP",
-    "Test Case B": "ESTJ",
-    "Test Case D": "INFP",
-    "Test Case E": "ISFP",
-    "Test Case F": "ESTJ",
-    "Test Case G": "ISTJ",
-    "Test Case H": "ESTP"
-  }
-}
-*/
